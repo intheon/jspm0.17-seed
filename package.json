@@ -1,0 +1,31 @@
+{
+  "name": "jspm0.17-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "jspm": {
+    "name": "jspm0.17-seed",
+    "main": "jspm0.17-seed.js",
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.14"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/server.js 1337"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intheon/jspm0.17-seed.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intheon/jspm0.17-seed/issues"
+  },
+  "homepage": "https://github.com/intheon/jspm0.17-seed#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
